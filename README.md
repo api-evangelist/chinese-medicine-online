@@ -42,5 +42,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chinese Medicine Online is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Chinese Medicine Online (中医在线) is a Beijing-based traditional Chinese medicine (TCM) continuing-education
+and academic-exchange platform, founded in 2015 and operated by Beijing Universe In Nutshell Technology Co., Ltd.
+(北京果壳宇宙教育科技有限公司) on behalf of the Beijing TCM Online Education Center (北京中医在线教育中心).
+It publishes recorded and live video continuing-education courses from national TCM masters, runs the 经方学社
+(Classical Formulas Society) learning community and 精医社 membership, livestreams academic conferences, and
+sells course material through a paid knowledge marketplace. It has since extended into AI and SaaS for
+grassroots clinics, including the "Yi Yin" (伊尹) TCM classical-reasoning large language model launched in
+Songxian, Henan in September 2025.
+
+The platform is delivered strictly as an end-user web and mobile product. As of 2026-08-09 the company
+publishes **no public API, SDK, developer portal or machine-readable contract** — see the `x-coverage`
+block in `apis.yml` for the probed evidence.
+
+- Platform: http://www.tcmmooc.com/
+- Corporate: http://www.tcmlive.com/
