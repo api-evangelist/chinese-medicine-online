@@ -15,6 +15,17 @@ description: >-
   end-user web and mobile product — it publishes no public API, SDK, developer portal or machine-readable
   contract of any kind.
 url: https://raw.githubusercontent.com/api-evangelist/chinese-medicine-online/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4a/e6/36/4ae6364b-437a-5d4d-ad52-9728aa9930e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg
 x-type: company
 x-source: harvest:secondary-market
