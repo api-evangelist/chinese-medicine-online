@@ -64,18 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chinese Medicine Online (中医在线) is a Beijing-based traditional Chinese medicine (TCM) continuing-education
-and academic-exchange platform, founded in 2015 and operated by Beijing Universe In Nutshell Technology Co., Ltd.
-(北京果壳宇宙教育科技有限公司) on behalf of the Beijing TCM Online Education Center (北京中医在线教育中心).
-It publishes recorded and live video continuing-education courses from national TCM masters, runs the 经方学社
-(Classical Formulas Society) learning community and 精医社 membership, livestreams academic conferences, and
-sells course material through a paid knowledge marketplace. It has since extended into AI and SaaS for
-grassroots clinics, including the "Yi Yin" (伊尹) TCM classical-reasoning large language model launched in
-Songxian, Henan in September 2025.
+Chinese Medicine Online (中医在线) is a Beijing-based traditional Chinese medicine (TCM) continuing-education and academic-exchange platform, founded in 2015 and operated by Beijing Universe In Nutshell Technology Co., Ltd. (北京果壳宇宙教育科技有限公司) on behalf of the Beijing TCM Online Education Center (北京中医在线教育中心). Through its web platform at tcmmooc.com and its iOS/Android app, it publishes recorded and live video continuing-education courses from national TCM masters and senior practitioners, runs the 经方学社 (Classical Formulas Society) learning community and 精医社 membership, livestreams academic conferences, and sells course material through a paid knowledge marketplace. The company states a catalogue of roughly 19,600 courses from 3,900+ TCM experts and around 4 million registered users, the majority of them licensed practitioners. It has since extended into AI and SaaS for grassroots clinics, including the "Yi Yin" (伊尹) TCM classical-reasoning large language model launched in Songxian, Henan in September 2025, and clinic workflow tooling (prescription, patient and follow-up management). The platform is delivered strictly as an end-user web and mobile product — it publishes no public API, SDK, developer portal or machine-readable contract of any kind.
 
-The platform is delivered strictly as an end-user web and mobile product. As of 2026-08-09 the company
-publishes **no public API, SDK, developer portal or machine-readable contract** — see the `x-coverage`
-block in `apis.yml` for the probed evidence.
+**Areas:** Traditional Chinese Medicine · Healthcare · Medical Education · Continuing Medical Education · E-Learning · Artificial Intelligence · China · Software-as-a-Service · Company
 
-- Platform: http://www.tcmmooc.com/
-- Corporate: http://www.tcmlive.com/
+## Chinese Medicine Online on APIs.io
+
+Everything profiled for Chinese Medicine Online is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chinese-medicine-online/](https://apis.io/providers/chinese-medicine-online/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chinese Medicine Online Domain Security](https://apis.io/security/chinese-medicine-online/chinese-medicine-online-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.tcmmooc.com/)
+- [Sign up](http://www.tcmmooc.com/register/registerForm)
+- [Support](http://www.tcmmooc.com/page/kefu)
+- [Terms of service](http://www.tcmmooc.com/page/useragreement)
+- [Privacy policy](http://www.tcmmooc.com/page/privacy)
+
+## API Evangelist rating
+
+**Kin Score 12.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chinese-medicine-online/](https://apis.io/providers/chinese-medicine-online/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chinese Medicine Online: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chinese-medicine-online/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
